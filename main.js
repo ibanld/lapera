@@ -8,3 +8,9 @@ $(function() {
     $(this).removeClass('menu-open');
   });
 });
+
+$(document).ready(function() {
+  $('.search-btn').click(function() {
+    $('.input').toggleClass('active');
+  });
+});

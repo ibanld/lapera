@@ -242,6 +242,42 @@ nav ul li a {
   transform: translateY(-1rem);
 }
 
+.fas fa-shopping-cart {
+  display: inline-block;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-sizing: content-box;
+  width: 0px;
+  height: 0px;
+  transition: all 0.8s ease;
+  padding: 0 0px;
+  outline: none;
+  border: 1px #7d7d7d;
+}
+
+.input.active {
+  width: 150px;
+  height: 50px;
+}
+
+.search-btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: inherit;
+  border-radius: 1em;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.8s ease;
+}
+
 @media screen and (max-width: 1200px) {
   .tone-2 img {
     left: -8rem;
