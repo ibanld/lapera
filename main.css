@@ -102,11 +102,30 @@ nav ul {
 }
 
 nav ul li {
-  line-height: 8rem;
+  line-height: 6rem;
 
   padding: 0 3rem 3rem;
 
   transition: background-color 0.5s;
+  position: relative;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover ul {
+  display: block;
+  position: absolute;
+}
+nav ul li ul li {
+  width: 180px;
+  background: #7d7d7d;
+}
+
+nav ul li ul li a:hover {
+  padding: 14px 8px;
 }
 
 nav ul li:hover {
